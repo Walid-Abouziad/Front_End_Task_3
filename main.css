@@ -1,0 +1,231 @@
+#home {
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+}
+nav a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+nav a:hover {
+    background-color: transparent;
+    color: gold;
+}
+nav{
+    display: inline-block;
+    width: 77%;
+}
+nav .active {
+    background-color: transparent;
+    color: gold;
+  }
+.menue img{
+    vertical-align: middle;
+    width: 15%;
+}
+.menue{
+    vertical-align: middle;
+    width: 96%;
+    text-align: end;
+    padding-top: 3%;
+}
+
+.welcome-to{
+    margin-top: 15%;
+    text-align: center;
+    color: white;
+}
+.welcome-to h1{
+    font-size: 76px;
+    margin-top: 1%;
+}
+.welcome-to h2{
+    font-size: 32px;
+}
+.welcome-to div{
+    font-size: 24px;
+    width: 60%;
+    margin: auto;
+}
+.welcome-to .learn-more {
+    background-color: #8e7754;
+    color: white;
+    font-size: 18px;
+}
+.welcome-to .contact-us {
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+}
+.welcome-to a img {
+   size: 5px;
+}
+.next{
+    margin: 10% 0 4% 0;
+}
+.who-we-are{
+    size: 99%;
+}
+.who-we-are .left-section{
+    display: inline-block;
+    width: 35%;
+    margin: 3% 0 0 2%;
+    vertical-align: middle;
+}
+.who-we-are .right-section{
+    display: inline-block;
+    width: 60%;
+    margin: 2% 0 0 2%;
+    vertical-align: middle;
+}
+.who-we-are .right-section .item img{
+    display: inline-block;
+    vertical-align: bottom;
+    border: 1PX solid;
+    border-radius: 45px ;
+}
+.who-we-are .right-section p{
+    width: 85%;
+    font-size: 20px;
+}
+.who-we-are .right-section .item p{
+    display: inline-block;
+}
+
+.our-location {
+    background-color: #F8F8F8;
+    padding: 4% 0 4% 2%;
+}
+.our-location .left-section{
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+}
+.our-location .right-section{
+    display: inline-block;
+    width: 35%;
+    vertical-align: middle;
+}
+.our-location .left-section p{
+    width: 85%;
+    font-size: 20px;
+    line-height: 2;
+}
+.Our-Baking .products .product-item{
+    width: 32%;
+    float: left;
+}
+.Our-Baking {
+    width: 99%;
+    text-align: center;
+}
+.Our-Baking p{
+    font-size: 20px;
+}
+.clearfix{
+    clear: both;
+}
+.Contact-Information {
+    width: 99%;
+    background-color: #F8F8F8;
+    padding-left: 1%;
+}
+.Contact-Information .left-section{
+    width: 50%;
+    float: left;
+}
+.Contact-Information .right-section{
+    width: 50%;
+    height: 80%;
+    float: left;
+    padding-top: 1%;
+}
+.Contact-Information .left-section .contacts .contact-item img{
+    background-color: #8e7754;
+    border-radius: 45px;
+    vertical-align: middle;
+    float: left;
+    margin: 1% 5% 1% 2%;
+}
+.Contact-Information .left-section .contacts .contact-item p{
+   float: left;
+}
+/* done */
+.about{
+    background-color: #403D38;
+    color: #969696;
+}
+.about h4{
+    color: white;
+}
+.about .about-us{
+    float: left;
+    width: 23%;
+    margin-left: 1%;
+}
+.about .are-special{
+    float: left;
+    width: 23%;
+    margin-left: 2%;
+}
+.about .openning-hours{
+    float: left;
+    width: 23%;
+    margin-left: 2%;
+}
+.about .contact-details{
+    float: left;
+    width: 23%;
+    margin-left: 2%;
+}
+.about .are-special .are-special-item img{
+    float: left;
+    vertical-align: bottom;
+}
+.about .are-special .are-special-item div{
+    float: left;
+    vertical-align: bottom;
+    margin-left: 2%;
+}
+.about .are-special .are-special-item{
+    padding-bottom: 15%;
+}
+.about .openning-hours .openning-hours-item img{
+    float: left;
+    vertical-align: bottom;
+}
+.about .openning-hoursl .openning-hours-item div{
+    float: left;
+    vertical-align: bottom;
+    margin-left: 2%;
+}
+.about .openning-hours .openning-hours-item{
+    padding-bottom: 8%;
+    vertical-align: bottom;
+}
+.about .contact-details .contact-details-item img{
+    float: left;
+    vertical-align: bottom;
+    color: #969696;
+}
+.about .contact-details .contact-details-item p{
+    float: left;
+    vertical-align: bottom;
+    margin-left: 2%;
+}
+.footer {
+    padding-top: 5%;
+    text-align: center;
+    background-color: #353330;
+    color: #777777;
+}
+.footer div img{
+    border: 1px solid;
+    border-radius: 45px;
+}
+.footer div{
+    padding-bottom: 6%;
+}
